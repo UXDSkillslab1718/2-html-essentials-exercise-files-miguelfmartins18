@@ -14,7 +14,12 @@
 
 <nav>
   <ul>
-    <li><a href="intro.htm" title="Introduction to HTML">Introduction to HTML</a></li>
+    <li><a href="intro.htm" title="Introduction to HTML">Introduction to HTML</a>
+      <ul>
+        <li><a href="#history" title="History of HTML">History</a></li>
+        <li><a href="#timeline" title="HTML Timeline">HTML Timeline</a></li>
+    </ul>
+    </li>
     <li><a href="syntax.htm" title="HTML syntax">HTML syntax</a></li>
     <li><a href="links.htm" title="Creating links">Creating links</a></li>
     <li><a href="reference.htm" title="HTML Reference">HTML reference</a></li>
@@ -30,7 +35,7 @@
 
     
     <header>
-      <h3><p>History</p></h3>
+      <h3 id="history"><p>History</p></h3>
     </header>
       <section>
         <p>HTML can trace its roots back to 1989 at <b>CERN</b>, the European Laboratory for Particle Physics. There, Tim Berners-Lee came up with the idea of having scientists from around the world collaborate on research. His idea was rather than simply making documents available on a server as many people were doing at the time, the documents themselves should be able to link to one another, in a way that would enhance collaboration and make information easier to find and more accessible. From this idea Tim created HTML (based off SGML, an earlier markup language) to format pages and HTTP (or Hypertext Transfer Protocol) to transfer them from one computer to another. Although the world didn&rsquo;t quite realize it yet, the World Wide Web was born.</p>
@@ -51,7 +56,7 @@
       </section>
       <section>
         <header>
-          <h4><p>HTML timeline</p></h4>
+          <h4 id="timeline"><p>HTML timeline</p></h4>
         </header>
       <ol>
         <li><b>1991</b>: Tim Berners-Lee publishes &ldquo;HTML Tags&rdquo; which describes the initial 18 elements of HTML</li>
